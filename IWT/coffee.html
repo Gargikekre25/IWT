@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url("images/coffee.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #4a4a4a;
+        }
+        .header {
+            background-color: #633f25;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .menu {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        span {
+            font-size: 1em;
+            color: #4b2b14;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#coffee">Coffee Menu</a></li>
+                <li><a href="#sandwich">Sandwichs</a></li>
+                <li><a href="#maggi">Maggi</a></li>
+                <li><a href="#pasta">Pasta</a></li>
+                <li><a href="#sides">Sides</a></li>
+            </ul>
+            <figure>
+                <img src="images/chef.jpeg" style="height:45px;width:60px"  class="logo">
+            </figure>
+            
+        </div>
+    </nav>
+    <br><br><br><br>
+    <section id="coffee">
+        <div class="menu">
+            <div class="header">
+                <h2>Coffee Menu</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <span>240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Americano</h3>
+                <span>300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <span>200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <span>250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mocha</h3>
+                <span>200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Macchiato</h3>
+                <span>320</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="sandwich">
+        <div class="menu">
+            <div class="header">
+                <h2>Sandwiches</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Corn Cheese sandwich</h3>
+                <span>240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tandoori sandwich</h3>
+                <span>300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Veg masala sandwich</h3>
+                <span>200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer capsicum sandwich</h3>
+                <span>250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Masala potato sandwich</h3>
+                <span>200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cheese chilli sandwich</h3>
+                <span>320</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="maggi">
+        <div class="menu">
+            <div class="header">
+                <h2>Maggi</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Veg Maggi</h3>
+                <span>240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Masala Maggi</h3>
+                <span>300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tandoori Maggi</h3>
+                <span>200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Punjabi Maggi</h3>
+                <span>250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Corn cheese maggi</h3>
+                <span>200</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="pasta">
+        <div class="menu">
+            <div class="header">
+                <h2>Pasta</h2>
+             </div>
+            <div class="menu-item">
+                <h3>White Sauce pasta</h3>
+                <span>240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Red sauce pasta</h3>
+                <span>300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pink sauce pasta</h3>
+                <span>200</span>
+            </div>
+        
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <section id="sides">
+        <div class="menu">
+            <div class="header">
+                <h2>Sides</h2>
+             </div>
+            <div class="menu-item">
+                <h3>French Fries</h3>
+                <span>100</span>
+            </div>
+            <div class="menu-item">
+                <h3>Peri peri fries</h3>
+                <span>140</span>
+            </div>
+            <div class="menu-item">
+                <h3>Masala French Fries</h3>
+                <span>120</span>
+            </div>
+            <div class="menu-item">
+                <h3>Garlic bread</h3>
+                <span>120</span>
+            </div>
+            <div class="menu-item">
+                <h3>Stuffed garlic bread</h3>
+                <span>120</span>
+            </div>
+            <div class="menu-item">
+                <h3>Baby Corn</h3>
+                <span>120</span>
+            </div>
+
+        </div>
+    </section>
+    
+   
+</body>
+</html>

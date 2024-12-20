@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url("images/dinner.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #4a4a4a;
+        }
+        .header {
+            background-color: #495b03cb;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .menu {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .price {
+            font-size: 1em;
+            color: #9e590f;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#soups">Soups</a></li>
+                <li><a href="#starter">Starter</a></li>
+                <li><a href="#chinese">Chinese</a></li>
+                <li><a href="#south indian">South Indian</a></li>
+                <li><a href="#MainCourse">Main Course</a></li>
+                <li><a href="#others">Other</a></li>
+            </ul>
+            <figure>
+                <img src="images/chef.jpeg" style="height:45px;width:60px"  class="logo">
+            </figure>
+        </div>
+    </nav>
+    <br><br><br>
+    <section id="soups">
+        <div class="menu">
+            <div class="header">
+                <h2>Soups</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Sweet corn</h3>
+                <span class="price">50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Hot N Sour</h3>
+                <span class="price">50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Coriendor Lemon </h3>
+                <span class="price">75</span>
+            </div>
+            <div class="menu-item">
+                <h3>Manchau soup</h3>
+                <span class="price">65</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetable soup</h3>
+                <span class="price">50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mexican Tamato soup</h3>
+                <span class="price">75</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="starter">
+        <div class="menu">
+            <div class="header">
+                <h2>Starters</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Paneer Tikka</h3>
+                <span class="price">85</span>
+            </div>
+            <div class="menu-item">
+                <h3>Honey Chilli potato</h3>
+                <span class="price">80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Veg cutlet</h3>
+                <span class="price">70</span>
+            </div>
+            <div class="menu-item">
+                <h3>Spring roll</h3>
+                <span class="price">80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Veg Momos</h3>
+                <span class="price">80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cheese Corn Balls</h3>
+                <span class="price">90</span>
+            </div>
+            <div class="menu-item">
+                <h3>Crispy Corn</h3>
+                <span class="price">50</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="chinese">
+        <div class="menu">
+            <div class="header">
+                <h2>Chinese</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Chilli garlic noodles</h3>
+                <span class="price">240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Hakkka noodles</h3>
+                <span class="price">300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Schezwain Noodles</h3>
+                <span class="price">320</span>
+            </div>
+            <div class="menu-item">
+                <h3>Manchurian</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Gravy Manchurian</h3>
+                <span class="price">250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chilli Paneer</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Fried Rice</h3>
+                <span class="price">200</span>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="south indian">
+        <div class="menu">
+            <div class="header">
+                <h2>South Indian</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Plain Dosa</h3>
+                <span class="price">140</span>
+            </div>
+            <div class="menu-item">
+                <h3>Masala dosa</h3>
+                <span class="price">160</span>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer masala dosa</h3>
+                <span class="price">190</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cheese Masala Dosa</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Idli Sambhar</h3>
+                <span class="price">80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vada Sambhar</h3>
+                <span class="price">90</span>
+            </div>
+            <div class="menu-item">
+                <h3>Uttapam</h3>
+                <span class="price">50</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="MainCourse">
+        <div class="menu">
+            <div class="header">
+                <h2>Main Course</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Paneer Tikka masala</h3>
+                <span class="price">240</span>
+            </div>
+            <div class="menu-item">
+                <h3>Kaju curry</h3>
+                <span class="price">300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Butter Paneer</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Shahi Paneer</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Masala Aloo</h3>
+                <span class="price">120</span>
+            </div>
+            <div class="menu-item">
+                <h3>Malai Kofta</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="header">
+                <h2>Rotis</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Tandoori Roti</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Missi Roti</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tava Roti</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="header">
+                <h2>Dal</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Dal Makhani</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Dal Tadka</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="header">
+                <h2>Rice</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Jeera Rice</h3>
+                <span class="price">200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Plain Rice</h3>
+                <span class="price">200</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="others">
+        <div class="menu">
+            <div class="header">
+                <h2>Other</h2>
+             </div>
+            <div class="menu-item">
+                <h3>Pav Bhaji</h3>
+                <span class="price">70</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chhole Bhature</h3>
+                <span class="price">80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chhole Tikiya</h3>
+                <span class="price">70</span>
+            </div>
+            <div class="menu-item">
+                <h3>Veg Biriyani</h3>
+                <span class="price">170</span>
+            </div>
+            <div class="menu-item">
+                <h3>Dahi Puri</h3>
+                <span class="price">70</span>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer Paratha</h3>
+                <span class="price">120</span>
+            </div>
+
+        </div>
+    </section>
+    
+   
+</body>
+</html>
